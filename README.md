@@ -1,5 +1,5 @@
 # Pet Care Manager
-An iOS App called Pet Care Manager where pet owners can store crucial information about their pets.
+An iOS App called Pet Care Manager where pet owners can store relevant information about their pets.
 
 # Problem Statement
 Many pet owners may face several problems while taking care of their animals. It is important to be aware of the health status of their pets, monitor their nutrition and activities, and organize their future appointments in a systematic manner.<br/>
