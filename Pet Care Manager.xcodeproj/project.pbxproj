@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE310CE62AD9999E00981F39 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = CE310CE52AD9999E00981F39 /* AlertToast */; };
+		CE310CE82AD9CBD000981F39 /* PetViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310CE72AD9CBD000981F39 /* PetViewHelper.swift */; };
+		CE310CEE2AD9D30600981F39 /* LogoStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310CED2AD9D30600981F39 /* LogoStartView.swift */; };
+		CE310CF12AD9D91A00981F39 /* KaushanScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE310CF02AD9D91A00981F39 /* KaushanScript-Regular.ttf */; };
+		CE310CFC2ADA009000981F39 /* HistoryVaccinationsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310CFB2ADA009000981F39 /* HistoryVaccinationsSection.swift */; };
+		CE310CFE2ADA00CD00981F39 /* HistoryIllnessesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310CFD2ADA00CD00981F39 /* HistoryIllnessesSection.swift */; };
+		CE310D002ADA00DF00981F39 /* HistoryOperationsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310CFF2ADA00DF00981F39 /* HistoryOperationsSection.swift */; };
+		CE310D062ADA9D4900981F39 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310D052ADA9D4900981F39 /* NetworkError.swift */; };
+		CE310D082ADA9E2500981F39 /* RandomDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310D072ADA9E2500981F39 /* RandomDogView.swift */; };
+		CE310D0B2ADAA32800981F39 /* Dog .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310D0A2ADAA32800981F39 /* Dog .swift */; };
+		CE310D102ADAE91700981F39 /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310D0F2ADAE91700981F39 /* DogViewModel.swift */; };
+		CE310D152ADB21F800981F39 /* AppointmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310D142ADB21F800981F39 /* AppointmentViewModel.swift */; };
+		CE310D2A2ADC874100981F39 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310D292ADC874100981F39 /* HistoryViewModel.swift */; };
+		CE9B90612AD8108F0087B2AD /* PetView .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B90602AD8108F0087B2AD /* PetView .swift */; };
+		CE9B90632AD824FF0087B2AD /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B90622AD824FF0087B2AD /* HistoryView.swift */; };
+		CE9B90652AD82ABD0087B2AD /* AddHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B90642AD82ABD0087B2AD /* AddHistoryView.swift */; };
+		CE9B90672AD9348E0087B2AD /* TabViewHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B90662AD9348E0087B2AD /* TabViewHistory.swift */; };
+		CE9B906A2AD93F4F0087B2AD /* FeatureView .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B90692AD93F4F0087B2AD /* FeatureView .swift */; };
+		CE9B906C2AD96B470087B2AD /* AppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B906B2AD96B470087B2AD /* AppointmentView.swift */; };
+		CE9B906E2AD96E960087B2AD /* AppointmentAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B906D2AD96E960087B2AD /* AppointmentAddView.swift */; };
+		CE9B90702AD9795E0087B2AD /* MedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B906F2AD9795E0087B2AD /* MedicationView.swift */; };
+		CE9B90722AD97A860087B2AD /* MedicationAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B90712AD97A860087B2AD /* MedicationAddView.swift */; };
+		CE9B90792AD981110087B2AD /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B90782AD981110087B2AD /* MealView.swift */; };
+		CE9B907B2AD9811E0087B2AD /* MealAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B907A2AD9811E0087B2AD /* MealAddView.swift */; };
+		CE9EBA462AD6AB5700D9518E /* Pet_Care_ManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA452AD6AB5700D9518E /* Pet_Care_ManagerApp.swift */; };
+		CE9EBA4A2AD6AB5800D9518E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9EBA492AD6AB5800D9518E /* Assets.xcassets */; };
+		CE9EBA4D2AD6AB5800D9518E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9EBA4C2AD6AB5800D9518E /* Preview Assets.xcassets */; };
+		CE9EBA592AD6B0AB00D9518E /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA582AD6B0AB00D9518E /* Pet.swift */; };
+		CE9EBA5B2AD6B19C00D9518E /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA5A2AD6B19C00D9518E /* Appointment.swift */; };
+		CE9EBA5D2AD6B1DB00D9518E /* Medication .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA5C2AD6B1DB00D9518E /* Medication .swift */; };
+		CE9EBA5F2AD6B20600D9518E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA5E2AD6B20600D9518E /* History.swift */; };
+		CE9EBA612AD6B22400D9518E /* Ilness .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA602AD6B22400D9518E /* Ilness .swift */; };
+		CE9EBA632AD6B23C00D9518E /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA622AD6B23C00D9518E /* Operation.swift */; };
+		CE9EBA652AD6B24800D9518E /* Vaccine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA642AD6B24800D9518E /* Vaccine.swift */; };
+		CE9EBA672AD6B35C00D9518E /* CollectionOfPets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA662AD6B35C00D9518E /* CollectionOfPets.swift */; };
+		CE9EBA6A2AD6C15700D9518E /* WelcomePCMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA692AD6C15700D9518E /* WelcomePCMView.swift */; };
+		CE9EBA6E2AD6CA8E00D9518E /* RegisterPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA6D2AD6CA8E00D9518E /* RegisterPetView.swift */; };
+		CE9EBA8F2AD74EF400D9518E /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBA8E2AD74EF400D9518E /* MainPageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE310CE72AD9CBD000981F39 /* PetViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetViewHelper.swift; sourceTree = "<group>"; };
+		CE310CED2AD9D30600981F39 /* LogoStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoStartView.swift; sourceTree = "<group>"; };
+		CE310CF02AD9D91A00981F39 /* KaushanScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.ttf"; sourceTree = "<group>"; };
+		CE310CF22AD9DA4000981F39 /* Pet-Care-Manager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pet-Care-Manager-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CE310CFB2ADA009000981F39 /* HistoryVaccinationsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVaccinationsSection.swift; sourceTree = "<group>"; };
+		CE310CFD2ADA00CD00981F39 /* HistoryIllnessesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryIllnessesSection.swift; sourceTree = "<group>"; };
+		CE310CFF2ADA00DF00981F39 /* HistoryOperationsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryOperationsSection.swift; sourceTree = "<group>"; };
+		CE310D052ADA9D4900981F39 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		CE310D072ADA9E2500981F39 /* RandomDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogView.swift; sourceTree = "<group>"; };
+		CE310D0A2ADAA32800981F39 /* Dog .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog .swift"; sourceTree = "<group>"; };
+		CE310D0F2ADAE91700981F39 /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
+		CE310D142ADB21F800981F39 /* AppointmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewModel.swift; sourceTree = "<group>"; };
+		CE310D292ADC874100981F39 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		CE9B90602AD8108F0087B2AD /* PetView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PetView .swift"; sourceTree = "<group>"; };
+		CE9B90622AD824FF0087B2AD /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		CE9B90642AD82ABD0087B2AD /* AddHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHistoryView.swift; sourceTree = "<group>"; };
+		CE9B90662AD9348E0087B2AD /* TabViewHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewHistory.swift; sourceTree = "<group>"; };
+		CE9B90692AD93F4F0087B2AD /* FeatureView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeatureView .swift"; sourceTree = "<group>"; };
+		CE9B906B2AD96B470087B2AD /* AppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentView.swift; sourceTree = "<group>"; };
+		CE9B906D2AD96E960087B2AD /* AppointmentAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentAddView.swift; sourceTree = "<group>"; };
+		CE9B906F2AD9795E0087B2AD /* MedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationView.swift; sourceTree = "<group>"; };
+		CE9B90712AD97A860087B2AD /* MedicationAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationAddView.swift; sourceTree = "<group>"; };
+		CE9B90782AD981110087B2AD /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		CE9B907A2AD9811E0087B2AD /* MealAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealAddView.swift; sourceTree = "<group>"; };
+		CE9EBA422AD6AB5700D9518E /* Pet Care Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet Care Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9EBA452AD6AB5700D9518E /* Pet_Care_ManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_Care_ManagerApp.swift; sourceTree = "<group>"; };
+		CE9EBA492AD6AB5800D9518E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9EBA4C2AD6AB5800D9518E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE9EBA582AD6B0AB00D9518E /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		CE9EBA5A2AD6B19C00D9518E /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		CE9EBA5C2AD6B1DB00D9518E /* Medication .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medication .swift"; sourceTree = "<group>"; };
+		CE9EBA5E2AD6B20600D9518E /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		CE9EBA602AD6B22400D9518E /* Ilness .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ilness .swift"; sourceTree = "<group>"; };
+		CE9EBA622AD6B23C00D9518E /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		CE9EBA642AD6B24800D9518E /* Vaccine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vaccine.swift; sourceTree = "<group>"; };
+		CE9EBA662AD6B35C00D9518E /* CollectionOfPets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionOfPets.swift; sourceTree = "<group>"; };
+		CE9EBA692AD6C15700D9518E /* WelcomePCMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePCMView.swift; sourceTree = "<group>"; };
+		CE9EBA6D2AD6CA8E00D9518E /* RegisterPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPetView.swift; sourceTree = "<group>"; };
+		CE9EBA8E2AD74EF400D9518E /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9EBA3F2AD6AB5700D9518E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE310CE62AD9999E00981F39 /* AlertToast in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE310CEF2AD9D8E900981F39 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE310CF02AD9D91A00981F39 /* KaushanScript-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CE310CF42AD9F84200981F39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B906B2AD96B470087B2AD /* AppointmentView.swift */,
+				CE9B906D2AD96E960087B2AD /* AppointmentAddView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE310CF52AD9F84B00981F39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B90712AD97A860087B2AD /* MedicationAddView.swift */,
+				CE9B906F2AD9795E0087B2AD /* MedicationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE310CF62AD9F88600981F39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B90602AD8108F0087B2AD /* PetView .swift */,
+				CE310D072ADA9E2500981F39 /* RandomDogView.swift */,
+				CE310CE72AD9CBD000981F39 /* PetViewHelper.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE310CF82AD9F8CF00981F39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EBA5A2AD6B19C00D9518E /* Appointment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE310CF92AD9F8DD00981F39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EBA5C2AD6B1DB00D9518E /* Medication .swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE310D012ADA01BF00981F39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B90662AD9348E0087B2AD /* TabViewHistory.swift */,
+				CE9B90622AD824FF0087B2AD /* HistoryView.swift */,
+				CE310CFB2ADA009000981F39 /* HistoryVaccinationsSection.swift */,
+				CE310CFD2ADA00CD00981F39 /* HistoryIllnessesSection.swift */,
+				CE310CFF2ADA00DF00981F39 /* HistoryOperationsSection.swift */,
+				CE9B90642AD82ABD0087B2AD /* AddHistoryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE310D022ADA01EE00981F39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EBA622AD6B23C00D9518E /* Operation.swift */,
+				CE9EBA602AD6B22400D9518E /* Ilness .swift */,
+				CE9EBA5E2AD6B20600D9518E /* History.swift */,
+				CE9EBA642AD6B24800D9518E /* Vaccine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE310D042ADA889600981F39 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EBA662AD6B35C00D9518E /* CollectionOfPets.swift */,
+				CE9EBA582AD6B0AB00D9518E /* Pet.swift */,
+				CE310D0F2ADAE91700981F39 /* DogViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE310D092ADAA18300981F39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE310D052ADA9D4900981F39 /* NetworkError.swift */,
+				CE310D0A2ADAA32800981F39 /* Dog .swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE310D112ADB219900981F39 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE310D142ADB21F800981F39 /* AppointmentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE310D282ADC86F600981F39 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE310D292ADC874100981F39 /* HistoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE9B90682AD93F070087B2AD /* EditFeatureView */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B90692AD93F4F0087B2AD /* FeatureView .swift */,
+			);
+			path = EditFeatureView;
+			sourceTree = "<group>";
+		};
+		CE9B90772AD981020087B2AD /* MealList  */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B90782AD981110087B2AD /* MealView.swift */,
+				CE9B907A2AD9811E0087B2AD /* MealAddView.swift */,
+			);
+			path = "MealList ";
+			sourceTree = "<group>";
+		};
+		CE9EBA392AD6AB5600D9518E = {
+			isa = PBXGroup;
+			children = (
+				CE9EBA442AD6AB5700D9518E /* Pet Care Manager */,
+				CE9EBA432AD6AB5700D9518E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9EBA432AD6AB5700D9518E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EBA422AD6AB5700D9518E /* Pet Care Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9EBA442AD6AB5700D9518E /* Pet Care Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EBA452AD6AB5700D9518E /* Pet_Care_ManagerApp.swift */,
+				CE310CF22AD9DA4000981F39 /* Pet-Care-Manager-Info.plist */,
+				CE310CEF2AD9D8E900981F39 /* Fonts */,
+				CE9B90772AD981020087B2AD /* MealList  */,
+				CE9B90682AD93F070087B2AD /* EditFeatureView */,
+				CE9EBA682AD6C13800D9518E /* Login */,
+				CE9EBA8D2AD74EB800D9518E /* MainPage */,
+				CE9EBA572AD6ADDA00D9518E /* Appointment Subsystem */,
+				CE9EBA562AD6ADCE00D9518E /* Medication Subsystem */,
+				CE9EBA552AD6ADC300D9518E /* History Subsystem */,
+				CE9EBA532AD6AD8A00D9518E /* Pet Subsystem */,
+				CE9EBA492AD6AB5800D9518E /* Assets.xcassets */,
+				CE9EBA4B2AD6AB5800D9518E /* Preview Content */,
+			);
+			path = "Pet Care Manager";
+			sourceTree = "<group>";
+		};
+		CE9EBA4B2AD6AB5800D9518E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EBA4C2AD6AB5800D9518E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE9EBA532AD6AD8A00D9518E /* Pet Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				CE310D092ADAA18300981F39 /* Model */,
+				CE310D042ADA889600981F39 /* ViewModel */,
+				CE310CF62AD9F88600981F39 /* View */,
+			);
+			path = "Pet Subsystem";
+			sourceTree = "<group>";
+		};
+		CE9EBA552AD6ADC300D9518E /* History Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				CE310D282ADC86F600981F39 /* ViewModel */,
+				CE310D022ADA01EE00981F39 /* Model */,
+				CE310D012ADA01BF00981F39 /* View */,
+			);
+			path = "History Subsystem";
+			sourceTree = "<group>";
+		};
+		CE9EBA562AD6ADCE00D9518E /* Medication Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				CE310CF92AD9F8DD00981F39 /* Model */,
+				CE310CF52AD9F84B00981F39 /* View */,
+			);
+			path = "Medication Subsystem";
+			sourceTree = "<group>";
+		};
+		CE9EBA572AD6ADDA00D9518E /* Appointment Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				CE310D112ADB219900981F39 /* ViewModel */,
+				CE310CF82AD9F8CF00981F39 /* Model */,
+				CE310CF42AD9F84200981F39 /* View */,
+			);
+			path = "Appointment Subsystem";
+			sourceTree = "<group>";
+		};
+		CE9EBA682AD6C13800D9518E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EBA692AD6C15700D9518E /* WelcomePCMView.swift */,
+				CE310CED2AD9D30600981F39 /* LogoStartView.swift */,
+				CE9EBA6D2AD6CA8E00D9518E /* RegisterPetView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CE9EBA8D2AD74EB800D9518E /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EBA8E2AD74EF400D9518E /* MainPageView.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9EBA412AD6AB5700D9518E /* Pet Care Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9EBA502AD6AB5800D9518E /* Build configuration list for PBXNativeTarget "Pet Care Manager" */;
+			buildPhases = (
+				CE9EBA3E2AD6AB5700D9518E /* Sources */,
+				CE9EBA3F2AD6AB5700D9518E /* Frameworks */,
+				CE9EBA402AD6AB5700D9518E /* Resources */,
+				CE9EBA6F2AD740EA00D9518E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pet Care Manager";
+			packageProductDependencies = (
+				CE310CE52AD9999E00981F39 /* AlertToast */,
+			);
+			productName = "Pet Care Manager";
+			productReference = CE9EBA422AD6AB5700D9518E /* Pet Care Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9EBA3A2AD6AB5600D9518E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CE9EBA412AD6AB5700D9518E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = CE9EBA3D2AD6AB5600D9518E /* Build configuration list for PBXProject "Pet Care Manager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE9EBA392AD6AB5600D9518E;
+			packageReferences = (
+				CE310CE42AD9999E00981F39 /* XCRemoteSwiftPackageReference "AlertToast" */,
+			);
+			productRefGroup = CE9EBA432AD6AB5700D9518E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9EBA412AD6AB5700D9518E /* Pet Care Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9EBA402AD6AB5700D9518E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9EBA4D2AD6AB5800D9518E /* Preview Assets.xcassets in Resources */,
+				CE9EBA4A2AD6AB5800D9518E /* Assets.xcassets in Resources */,
+				CE310CF12AD9D91A00981F39 /* KaushanScript-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE9EBA6F2AD740EA00D9518E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9EBA3E2AD6AB5700D9518E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9EBA652AD6B24800D9518E /* Vaccine.swift in Sources */,
+				CE310D062ADA9D4900981F39 /* NetworkError.swift in Sources */,
+				CE9B90612AD8108F0087B2AD /* PetView .swift in Sources */,
+				CE9EBA5F2AD6B20600D9518E /* History.swift in Sources */,
+				CE9B90722AD97A860087B2AD /* MedicationAddView.swift in Sources */,
+				CE310CEE2AD9D30600981F39 /* LogoStartView.swift in Sources */,
+				CE310CE82AD9CBD000981F39 /* PetViewHelper.swift in Sources */,
+				CE310D0B2ADAA32800981F39 /* Dog .swift in Sources */,
+				CE9B90672AD9348E0087B2AD /* TabViewHistory.swift in Sources */,
+				CE9EBA672AD6B35C00D9518E /* CollectionOfPets.swift in Sources */,
+				CE9B907B2AD9811E0087B2AD /* MealAddView.swift in Sources */,
+				CE9EBA592AD6B0AB00D9518E /* Pet.swift in Sources */,
+				CE9B90792AD981110087B2AD /* MealView.swift in Sources */,
+				CE310D152ADB21F800981F39 /* AppointmentViewModel.swift in Sources */,
+				CE9EBA612AD6B22400D9518E /* Ilness .swift in Sources */,
+				CE310CFE2ADA00CD00981F39 /* HistoryIllnessesSection.swift in Sources */,
+				CE310D002ADA00DF00981F39 /* HistoryOperationsSection.swift in Sources */,
+				CE9B90652AD82ABD0087B2AD /* AddHistoryView.swift in Sources */,
+				CE9EBA6E2AD6CA8E00D9518E /* RegisterPetView.swift in Sources */,
+				CE9B90632AD824FF0087B2AD /* HistoryView.swift in Sources */,
+				CE310D102ADAE91700981F39 /* DogViewModel.swift in Sources */,
+				CE310D2A2ADC874100981F39 /* HistoryViewModel.swift in Sources */,
+				CE9B906E2AD96E960087B2AD /* AppointmentAddView.swift in Sources */,
+				CE9B90702AD9795E0087B2AD /* MedicationView.swift in Sources */,
+				CE9B906C2AD96B470087B2AD /* AppointmentView.swift in Sources */,
+				CE9EBA632AD6B23C00D9518E /* Operation.swift in Sources */,
+				CE310CFC2ADA009000981F39 /* HistoryVaccinationsSection.swift in Sources */,
+				CE9EBA6A2AD6C15700D9518E /* WelcomePCMView.swift in Sources */,
+				CE9EBA5D2AD6B1DB00D9518E /* Medication .swift in Sources */,
+				CE9EBA462AD6AB5700D9518E /* Pet_Care_ManagerApp.swift in Sources */,
+				CE310D082ADA9E2500981F39 /* RandomDogView.swift in Sources */,
+				CE9EBA5B2AD6B19C00D9518E /* Appointment.swift in Sources */,
+				CE9EBA8F2AD74EF400D9518E /* MainPageView.swift in Sources */,
+				CE9B906A2AD93F4F0087B2AD /* FeatureView .swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE9EBA4E2AD6AB5800D9518E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE9EBA4F2AD6AB5800D9518E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9EBA512AD6AB5800D9518E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pet Care Manager/Preview Content\"";
+				DEVELOPMENT_TEAM = 7PLLZ436SG;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pet-Care-Manager-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edk.Pet-Care-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9EBA522AD6AB5800D9518E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pet Care Manager/Preview Content\"";
+				DEVELOPMENT_TEAM = 7PLLZ436SG;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pet-Care-Manager-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edk.Pet-Care-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9EBA3D2AD6AB5600D9518E /* Build configuration list for PBXProject "Pet Care Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9EBA4E2AD6AB5800D9518E /* Debug */,
+				CE9EBA4F2AD6AB5800D9518E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9EBA502AD6AB5800D9518E /* Build configuration list for PBXNativeTarget "Pet Care Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9EBA512AD6AB5800D9518E /* Debug */,
+				CE9EBA522AD6AB5800D9518E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE310CE42AD9999E00981F39 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE310CE52AD9999E00981F39 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE310CE42AD9999E00981F39 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE9EBA3A2AD6AB5600D9518E /* Project object */;
+}
