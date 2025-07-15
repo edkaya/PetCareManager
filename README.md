@@ -2,6 +2,7 @@
 An iOS App called Pet Care Manager where pet owners can store relevant information about their pets.
 
 # App Overview
+This app is designed and implemented in one week for the sake of the introcourse of iPraktikum. (before ChatGPT!!)
 ## Login
 <img width="1092" height="892" alt="Screenshot 2025-07-15 at 18 33 51" src="https://github.com/user-attachments/assets/bcf6b3de-580d-4fd2-9a32-6a3e315b8ea7" />
 
